@@ -1,0 +1,55 @@
+/* 
+- Mobile: 375px
+- Desktop: 1440px 
+*/
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 375px) {
+    .card_container {
+        max-width: 300px;
+        height: 580px;
+    }
+
+    .card_content > h4 {
+        font-size: 1.2rem;
+    }
+
+    .card_content > p {
+        font-size: 0.90rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .card_container {
+        max-width: 330px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up */
+@media (min-width: 768px) {
+    .card_container {
+        max-width: 330px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .card_container {
+        max-width: 330px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .card_container {
+        max-width: 330px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1440px) {
+    .card_container {
+        max-width: 330px;
+    }
+}

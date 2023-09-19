@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Responsive CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/responsivity.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+
+  <body class="d-flex flex-column">
+
+    <div class="card_container p-4 ">
+
+      <div class="card_content">
+        <div class="nft_image rounded mb-3">
+          <img class="cube w-100 img-fluid rounded" src="images/image-equilibrium.jpg" alt="magic prisma cube equilibrium NFT">
+
+          <div class="image_overlay rounded">
+            <img src="images/icon-view.svg" alt="eye icon">
+          </div>
+        </div>
+
+        <h4 class="mb-3">Equilibrium #3429</h4>
+        <p class="mb-3">Our Equilibrium collection promotes<br> balance and calm.</p>
+
+        <div class="card_info d-flex align-items-center justify-content-between pb-4">
+
+          <div class="ethereum d-flex align-items-center">
+            <img src="images/icon-ethereum.svg" alt="ethereum icon"></img>
+            <span class="fs-6 ms-2">0.041 ETH</span>
+          </div>
+
+          <div class="time d-flex align-items-center">
+            <img src="images/icon-clock.svg" alt="clock icon">
+            <span class="fs-6 ms-2">3 days left</span>
+          </div>
+
+        </div>
+
+        <div class="creator_profile d-flex align-items-center mt-4">
+          <img class="border border-2 rounded-circle me-3" src="images/image-avatar.png" alt="avatar image">
+          <span class="fs-6">
+            Creation of <span class="creator_name">Jules Wyvern</span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="attribution text-light pb-3">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/ed-matheus">Ed Matheus</a>.
+    </div>
+  </body>
+</html>
